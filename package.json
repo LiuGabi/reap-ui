@@ -1,0 +1,29 @@
+{
+  "name": "reap-ui",
+  "version": "1.0.0",
+  "description": "微信小程序 UI 组件库",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=DEV gulp --gulpfile build.js",
+    "build": "cross-env NODE_ENV=PRO gulp --gulpfile build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuGabi/reap-ui.git"
+  },
+  "author": "Gabriella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiuGabi/reap-ui/issues"
+  },
+  "homepage": "https://github.com/LiuGabi/reap-ui#readme",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-less": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.1"
+  }
+}
