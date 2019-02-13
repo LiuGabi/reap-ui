@@ -1,0 +1,4 @@
+<view class="reap-loading custom-class" style="width: {{size}}; height: {{size}};">
+	<view class="reap-loading-spinner reap-loading-spinner-{{type}}" style="color: {{color}};"></view>
+	<view wx:if="{{type === 'spinner'}}" wx:for="item in 12" wx:key="index" class="reap-loading-dot"></view>
+</view>

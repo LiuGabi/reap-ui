@@ -1,6 +1,7 @@
 {
   "pages":[
-    "pages/icon/index"
+    "pages/icon/index",
+    "pages/loading/index"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FAFAFA",

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Loading",
+  "usingComponents": {
+    "reap-loading": "../../dist/loading/index"
+  }
+}
